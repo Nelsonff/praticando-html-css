@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+body {
+    background-image: url(imagens/pexels-irina-varanovich.jpg);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+}
+
+table {
+    background-color: black;
+    margin: right;
+    width: 10vw;
+}
+
+td, th {
+    background-color:  lightgray;
+    border:1px solid black;
+    padding: 5px 30px 5px 5px;
+}
